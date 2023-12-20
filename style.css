@@ -91,6 +91,7 @@
 
 .header__blog {
   list-style: none;
+  gap: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -493,6 +494,10 @@
   line-height: 18px;
   /* 150% */
   text-align: center;
+}
+
+.header__blog__item:nth-child(3) {
+  width: 30%;
 }
 
 @media only screen and (max-width: 1250px) {
